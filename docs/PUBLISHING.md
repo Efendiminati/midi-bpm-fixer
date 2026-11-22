@@ -44,7 +44,18 @@ Verified with the built-in selftest: note onsets unchanged to 0.00000s after con
 - [x] README has the screenshot, both modes, CLI examples, limitations
 - [x] MIT LICENSE in place (`Efendiminati`, 2026 — edit if you want a different name)
 - [x] `.gitignore` excludes `build/`, `dist/`, `*.spec`, converted sample outputs
-- [ ] Decide whether the sample `.mid` stays in the repo (it does by default, harmless)
+- [x] Sample `.mid` kept in the repo (harmless, lets people try it immediately)
+
+## Published
+
+- Repo: https://github.com/Efendiminati/midi-bpm-fixer
+- Release: https://github.com/Efendiminati/midi-bpm-fixer/releases/tag/v1.0.0
+- Asset: `MIDI.BPM.Fixer.exe` — **GitHub replaces the spaces in the filename with dots**,
+  so the download name is not `MIDI BPM Fixer.exe`. Link the sanitised name.
+
+Verified after publishing: the downloaded asset's `sha256sum`
+(`36f83b11…fb38b04`) matches the local build, and the downloaded exe runs
+`--selftest` with exit code 0.
 
 ## After publishing
 
