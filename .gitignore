@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+samples/*_bpm*.mid
+samples/*_retimed.mid
+.venv/
